@@ -1,22 +1,21 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.30)
 project(CarRental)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# SQLite3 C-bibliotek
 add_library(sqlite3 sqlite3/sqlite3.c)
 target_include_directories(sqlite3 PUBLIC sqlite3)
 
-# SQLiteCpp C++-wrapper
 add_library(sqlitecpp
-        sqlitecpp/src/Backup.cpp
-        sqlitecpp/src/Column.cpp
-        sqlitecpp/src/Database.cpp
-        sqlitecpp/src/Exception.cpp
-        sqlitecpp/src/Savepoint.cpp
-        sqlitecpp/src/Statement.cpp
-        sqlitecpp/src/Transaction.cpp
+        SQLiteCpp/src/Backup.cpp
+        SQLiteCpp/src/Column.cpp
+        SQLiteCpp/src/Database.cpp
+        SQLiteCpp/src/Exception.cpp
+        SQLiteCpp/src/Savepoint.cpp
+        SQLiteCpp/src/Statement.cpp
+        SQLiteCpp/src/Transaction.cpp
 )
+
 target_include_directories(sqlitecpp PUBLIC sqlitecpp/include)
 target_link_libraries(sqlitecpp sqlite3)
 
@@ -33,4 +32,5 @@ add_executable(CarRental
         Functions/cpp/unassigncar.cpp
 )
 
-target_link_libraries(CarRental sqlitecpp sqlite3)
+target_include_directories(CarRental PRIVATE sqlitecpp/include)
+target_link_libraries(CarRental sqlite3 sqlitecpp)

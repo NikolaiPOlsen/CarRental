@@ -10,7 +10,7 @@
 #include "Functions/h/unassigncar.h"
 
 int main() {
-    SQLite::Database db("../carrental.sqlite", SQLite::OPEN_READWRITE);
+    SQLite::Database db("CarRental.sqlite", SQLite::OPEN_READWRITE);
     int choice;
 
     while (true) {

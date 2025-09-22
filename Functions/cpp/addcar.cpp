@@ -1,6 +1,6 @@
 #include "../h/addcar.h"
 #include <iostream>
-#include <SQlitecpp/SQLiteCpp.h>
+#include <SQLiteCpp/SQLiteCpp.h>
 
 void addCar(SQLite::Database& db) {
     std::string regnr, brand, model;
