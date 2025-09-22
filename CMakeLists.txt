@@ -30,6 +30,11 @@ add_executable(CarRental
         Functions/cpp/removecustomer.cpp
         Functions/cpp/assigncar.cpp
         Functions/cpp/unassigncar.cpp
+        Functions/cpp/search_carid.cpp
+        Functions/cpp/Search_customerID.cpp
+        Functions/cpp/search_name.cpp
+        Functions/cpp/search_carBrand.cpp
+        Functions/cpp/search_regNr.cpp
 )
 
 target_include_directories(CarRental PRIVATE sqlitecpp/include)

@@ -155,6 +155,30 @@ CarRental/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/build
 .PHONY : CarRental/fast
 
+Functions/cpp/Search_customerID.o: Functions/cpp/Search_customerID.cpp.o
+.PHONY : Functions/cpp/Search_customerID.o
+
+# target to build an object file
+Functions/cpp/Search_customerID.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o
+.PHONY : Functions/cpp/Search_customerID.cpp.o
+
+Functions/cpp/Search_customerID.i: Functions/cpp/Search_customerID.cpp.i
+.PHONY : Functions/cpp/Search_customerID.i
+
+# target to preprocess a source file
+Functions/cpp/Search_customerID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.i
+.PHONY : Functions/cpp/Search_customerID.cpp.i
+
+Functions/cpp/Search_customerID.s: Functions/cpp/Search_customerID.cpp.s
+.PHONY : Functions/cpp/Search_customerID.s
+
+# target to generate assembly for a file
+Functions/cpp/Search_customerID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.s
+.PHONY : Functions/cpp/Search_customerID.cpp.s
+
 Functions/cpp/addcar.o: Functions/cpp/addcar.cpp.o
 .PHONY : Functions/cpp/addcar.o
 
@@ -322,6 +346,102 @@ Functions/cpp/removecustomer.s: Functions/cpp/removecustomer.cpp.s
 Functions/cpp/removecustomer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/removecustomer.cpp.s
 .PHONY : Functions/cpp/removecustomer.cpp.s
+
+Functions/cpp/search_carBrand.o: Functions/cpp/search_carBrand.cpp.o
+.PHONY : Functions/cpp/search_carBrand.o
+
+# target to build an object file
+Functions/cpp/search_carBrand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o
+.PHONY : Functions/cpp/search_carBrand.cpp.o
+
+Functions/cpp/search_carBrand.i: Functions/cpp/search_carBrand.cpp.i
+.PHONY : Functions/cpp/search_carBrand.i
+
+# target to preprocess a source file
+Functions/cpp/search_carBrand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.i
+.PHONY : Functions/cpp/search_carBrand.cpp.i
+
+Functions/cpp/search_carBrand.s: Functions/cpp/search_carBrand.cpp.s
+.PHONY : Functions/cpp/search_carBrand.s
+
+# target to generate assembly for a file
+Functions/cpp/search_carBrand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.s
+.PHONY : Functions/cpp/search_carBrand.cpp.s
+
+Functions/cpp/search_carid.o: Functions/cpp/search_carid.cpp.o
+.PHONY : Functions/cpp/search_carid.o
+
+# target to build an object file
+Functions/cpp/search_carid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o
+.PHONY : Functions/cpp/search_carid.cpp.o
+
+Functions/cpp/search_carid.i: Functions/cpp/search_carid.cpp.i
+.PHONY : Functions/cpp/search_carid.i
+
+# target to preprocess a source file
+Functions/cpp/search_carid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.i
+.PHONY : Functions/cpp/search_carid.cpp.i
+
+Functions/cpp/search_carid.s: Functions/cpp/search_carid.cpp.s
+.PHONY : Functions/cpp/search_carid.s
+
+# target to generate assembly for a file
+Functions/cpp/search_carid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.s
+.PHONY : Functions/cpp/search_carid.cpp.s
+
+Functions/cpp/search_name.o: Functions/cpp/search_name.cpp.o
+.PHONY : Functions/cpp/search_name.o
+
+# target to build an object file
+Functions/cpp/search_name.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o
+.PHONY : Functions/cpp/search_name.cpp.o
+
+Functions/cpp/search_name.i: Functions/cpp/search_name.cpp.i
+.PHONY : Functions/cpp/search_name.i
+
+# target to preprocess a source file
+Functions/cpp/search_name.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.i
+.PHONY : Functions/cpp/search_name.cpp.i
+
+Functions/cpp/search_name.s: Functions/cpp/search_name.cpp.s
+.PHONY : Functions/cpp/search_name.s
+
+# target to generate assembly for a file
+Functions/cpp/search_name.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.s
+.PHONY : Functions/cpp/search_name.cpp.s
+
+Functions/cpp/search_regNr.o: Functions/cpp/search_regNr.cpp.o
+.PHONY : Functions/cpp/search_regNr.o
+
+# target to build an object file
+Functions/cpp/search_regNr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o
+.PHONY : Functions/cpp/search_regNr.cpp.o
+
+Functions/cpp/search_regNr.i: Functions/cpp/search_regNr.cpp.i
+.PHONY : Functions/cpp/search_regNr.i
+
+# target to preprocess a source file
+Functions/cpp/search_regNr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.i
+.PHONY : Functions/cpp/search_regNr.cpp.i
+
+Functions/cpp/search_regNr.s: Functions/cpp/search_regNr.cpp.s
+.PHONY : Functions/cpp/search_regNr.s
+
+# target to generate assembly for a file
+Functions/cpp/search_regNr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.s
+.PHONY : Functions/cpp/search_regNr.cpp.s
 
 Functions/cpp/unassigncar.o: Functions/cpp/unassigncar.cpp.o
 .PHONY : Functions/cpp/unassigncar.o
@@ -574,6 +694,9 @@ help:
 	@echo "... CarRental"
 	@echo "... sqlite3"
 	@echo "... sqlitecpp"
+	@echo "... Functions/cpp/Search_customerID.o"
+	@echo "... Functions/cpp/Search_customerID.i"
+	@echo "... Functions/cpp/Search_customerID.s"
 	@echo "... Functions/cpp/addcar.o"
 	@echo "... Functions/cpp/addcar.i"
 	@echo "... Functions/cpp/addcar.s"
@@ -595,6 +718,18 @@ help:
 	@echo "... Functions/cpp/removecustomer.o"
 	@echo "... Functions/cpp/removecustomer.i"
 	@echo "... Functions/cpp/removecustomer.s"
+	@echo "... Functions/cpp/search_carBrand.o"
+	@echo "... Functions/cpp/search_carBrand.i"
+	@echo "... Functions/cpp/search_carBrand.s"
+	@echo "... Functions/cpp/search_carid.o"
+	@echo "... Functions/cpp/search_carid.i"
+	@echo "... Functions/cpp/search_carid.s"
+	@echo "... Functions/cpp/search_name.o"
+	@echo "... Functions/cpp/search_name.i"
+	@echo "... Functions/cpp/search_name.s"
+	@echo "... Functions/cpp/search_regNr.o"
+	@echo "... Functions/cpp/search_regNr.i"
+	@echo "... Functions/cpp/search_regNr.s"
 	@echo "... Functions/cpp/unassigncar.o"
 	@echo "... Functions/cpp/unassigncar.i"
 	@echo "... Functions/cpp/unassigncar.s"

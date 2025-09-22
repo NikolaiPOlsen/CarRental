@@ -198,6 +198,76 @@ CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/unassigncar.cpp -o CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.s
 
+CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o: CMakeFiles/CarRental.dir/flags.make
+CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o: /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carid.cpp
+CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o: CMakeFiles/CarRental.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o -MF CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o.d -o CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o -c /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carid.cpp
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carid.cpp > CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.i
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carid.cpp -o CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.s
+
+CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o: CMakeFiles/CarRental.dir/flags.make
+CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o: /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/Search_customerID.cpp
+CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o: CMakeFiles/CarRental.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o -MF CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o.d -o CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o -c /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/Search_customerID.cpp
+
+CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/Search_customerID.cpp > CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.i
+
+CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/Search_customerID.cpp -o CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.s
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o: CMakeFiles/CarRental.dir/flags.make
+CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o: /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_name.cpp
+CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o: CMakeFiles/CarRental.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o -MF CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o.d -o CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o -c /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_name.cpp
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_name.cpp > CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.i
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_name.cpp -o CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.s
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o: CMakeFiles/CarRental.dir/flags.make
+CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o: /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carBrand.cpp
+CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o: CMakeFiles/CarRental.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o -MF CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o.d -o CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o -c /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carBrand.cpp
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carBrand.cpp > CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.i
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carBrand.cpp -o CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.s
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o: CMakeFiles/CarRental.dir/flags.make
+CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o: /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_regNr.cpp
+CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o: CMakeFiles/CarRental.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o -MF CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o.d -o CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o -c /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_regNr.cpp
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_regNr.cpp > CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.i
+
+CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_regNr.cpp -o CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.s
+
 # Object files for target CarRental
 CarRental_OBJECTS = \
 "CMakeFiles/CarRental.dir/main.cpp.o" \
@@ -208,7 +278,12 @@ CarRental_OBJECTS = \
 "CMakeFiles/CarRental.dir/Functions/cpp/editcustomer.cpp.o" \
 "CMakeFiles/CarRental.dir/Functions/cpp/removecustomer.cpp.o" \
 "CMakeFiles/CarRental.dir/Functions/cpp/assigncar.cpp.o" \
-"CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.o"
+"CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.o" \
+"CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o" \
+"CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o" \
+"CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o" \
+"CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o" \
+"CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o"
 
 # External object files for target CarRental
 CarRental_EXTERNAL_OBJECTS =
@@ -222,11 +297,16 @@ CarRental: CMakeFiles/CarRental.dir/Functions/cpp/editcustomer.cpp.o
 CarRental: CMakeFiles/CarRental.dir/Functions/cpp/removecustomer.cpp.o
 CarRental: CMakeFiles/CarRental.dir/Functions/cpp/assigncar.cpp.o
 CarRental: CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.o
+CarRental: CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o
+CarRental: CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.o
+CarRental: CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o
+CarRental: CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.o
+CarRental: CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o
 CarRental: CMakeFiles/CarRental.dir/build.make
 CarRental: libsqlitecpp.a
 CarRental: libsqlite3.a
 CarRental: CMakeFiles/CarRental.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CarRental"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable CarRental"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CarRental.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

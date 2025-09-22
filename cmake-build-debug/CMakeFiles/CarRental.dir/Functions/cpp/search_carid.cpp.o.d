@@ -1,6 +1,6 @@
-CMakeFiles/CarRental.dir/Functions/cpp/assigncar.cpp.o: \
-  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/assigncar.cpp \
-  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/../h/assigncar.h \
+CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.o: \
+  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/search_carid.cpp \
+  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/../h/search_carid.h \
   /Users/nikolaipedersen/Desktop/CarRental/sqlitecpp/include/SQLiteCpp/SQLiteCpp.h \
   /Users/nikolaipedersen/Desktop/CarRental/sqlitecpp/include/SQLiteCpp/SQLiteCppExport.h \
   /Users/nikolaipedersen/Desktop/CarRental/sqlitecpp/include/SQLiteCpp/Assertion.h \
@@ -825,7 +825,6 @@ CMakeFiles/CarRental.dir/Functions/cpp/assigncar.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/nikolaipedersen/Desktop/CarRental/sqlitecpp/include/SQLiteCpp/Transaction.h \
-  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/../h/search_carid.h \
-  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/../h/search_carBrand.h \
-  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/../h/search_regNr.h \
+  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/../h/search_customerid.h \
+  /Users/nikolaipedersen/Desktop/CarRental/Functions/cpp/../h/search_name.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream
