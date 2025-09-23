@@ -35,6 +35,8 @@ add_executable(CarRental
         Functions/cpp/search_name.cpp
         Functions/cpp/search_carBrand.cpp
         Functions/cpp/search_regNr.cpp
+        Functions/cpp/statistics.cpp
+        Functions/cpp/statistics.h
 )
 
 target_include_directories(CarRental PRIVATE sqlitecpp/include)

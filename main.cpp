@@ -8,6 +8,7 @@
 #include "Functions/h/removecar.h"
 #include "Functions/h/removecustomer.h"
 #include "Functions/h/unassigncar.h"
+#include "Functions/h/statistics.h"
 
 int main() {
     SQLite::Database db("CarRental.sqlite", SQLite::OPEN_READWRITE);
@@ -73,6 +74,7 @@ int main() {
             }
             case 9: {
                 std::cout << "Statistics" << std::endl;
+                statistics(db);
                 break;
             }
             case 10: {

@@ -443,6 +443,30 @@ Functions/cpp/search_regNr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.s
 .PHONY : Functions/cpp/search_regNr.cpp.s
 
+Functions/cpp/statistics.o: Functions/cpp/statistics.cpp.o
+.PHONY : Functions/cpp/statistics.o
+
+# target to build an object file
+Functions/cpp/statistics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/statistics.cpp.o
+.PHONY : Functions/cpp/statistics.cpp.o
+
+Functions/cpp/statistics.i: Functions/cpp/statistics.cpp.i
+.PHONY : Functions/cpp/statistics.i
+
+# target to preprocess a source file
+Functions/cpp/statistics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/statistics.cpp.i
+.PHONY : Functions/cpp/statistics.cpp.i
+
+Functions/cpp/statistics.s: Functions/cpp/statistics.cpp.s
+.PHONY : Functions/cpp/statistics.s
+
+# target to generate assembly for a file
+Functions/cpp/statistics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarRental.dir/build.make CMakeFiles/CarRental.dir/Functions/cpp/statistics.cpp.s
+.PHONY : Functions/cpp/statistics.cpp.s
+
 Functions/cpp/unassigncar.o: Functions/cpp/unassigncar.cpp.o
 .PHONY : Functions/cpp/unassigncar.o
 
@@ -730,6 +754,9 @@ help:
 	@echo "... Functions/cpp/search_regNr.o"
 	@echo "... Functions/cpp/search_regNr.i"
 	@echo "... Functions/cpp/search_regNr.s"
+	@echo "... Functions/cpp/statistics.o"
+	@echo "... Functions/cpp/statistics.i"
+	@echo "... Functions/cpp/statistics.s"
 	@echo "... Functions/cpp/unassigncar.o"
 	@echo "... Functions/cpp/unassigncar.i"
 	@echo "... Functions/cpp/unassigncar.s"

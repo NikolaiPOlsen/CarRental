@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.o.d"
   "CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o"
   "CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.o.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/statistics.cpp.o"
+  "CMakeFiles/CarRental.dir/Functions/cpp/statistics.cpp.o.d"
   "CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.o"
   "CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.o.d"
   "CMakeFiles/CarRental.dir/main.cpp.o"
