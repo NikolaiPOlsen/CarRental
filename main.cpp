@@ -1,5 +1,7 @@
 #include <iostream>
 #include <SQLiteCpp/SQLiteCpp.h>
+
+#include "Functions/JsonImport.h"
 #include "Functions/h/addcar.h"
 #include "Functions/h/addcustomer.h"
 #include "Functions/h/assigncar.h"
@@ -85,6 +87,7 @@ int main() {
             }
             case 11: {
                 std::cout << "Import" << std::endl;
+                JsonImport(db, "backup.json");
                 break;
             }
             case 12: {

@@ -168,6 +168,30 @@ Functions\cpp\JsonExport.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarRental.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CarRental.dir\Functions\cpp\JsonExport.cpp.s
 .PHONY : Functions\cpp\JsonExport.cpp.s
 
+Functions\cpp\JsonImport.obj: Functions\cpp\JsonImport.cpp.obj
+.PHONY : Functions\cpp\JsonImport.obj
+
+# target to build an object file
+Functions\cpp\JsonImport.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarRental.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj
+.PHONY : Functions\cpp\JsonImport.cpp.obj
+
+Functions\cpp\JsonImport.i: Functions\cpp\JsonImport.cpp.i
+.PHONY : Functions\cpp\JsonImport.i
+
+# target to preprocess a source file
+Functions\cpp\JsonImport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarRental.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.i
+.PHONY : Functions\cpp\JsonImport.cpp.i
+
+Functions\cpp\JsonImport.s: Functions\cpp\JsonImport.cpp.s
+.PHONY : Functions\cpp\JsonImport.s
+
+# target to generate assembly for a file
+Functions\cpp\JsonImport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CarRental.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.s
+.PHONY : Functions\cpp\JsonImport.cpp.s
+
 Functions\cpp\Search_customerID.obj: Functions\cpp\Search_customerID.cpp.obj
 .PHONY : Functions\cpp\Search_customerID.obj
 
@@ -734,6 +758,9 @@ help:
 	@echo ... Functions/cpp/JsonExport.obj
 	@echo ... Functions/cpp/JsonExport.i
 	@echo ... Functions/cpp/JsonExport.s
+	@echo ... Functions/cpp/JsonImport.obj
+	@echo ... Functions/cpp/JsonImport.i
+	@echo ... Functions/cpp/JsonImport.s
 	@echo ... Functions/cpp/Search_customerID.obj
 	@echo ... Functions/cpp/Search_customerID.i
 	@echo ... Functions/cpp/Search_customerID.s

@@ -39,6 +39,8 @@ add_executable(CarRental
         Functions/cpp/statistics.cpp
         Functions/cpp/JsonExport.cpp
         Functions/h/JsonExport.h
+        Functions/cpp/JsonImport.cpp
+        Functions/JsonImport.h
 )
 
 find_package(RapidJSON CONFIG REQUIRED)

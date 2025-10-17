@@ -136,6 +136,7 @@ C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.
 C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/include/vector
 C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/include/__msvc_bit_utils.hpp
 C:/Users/lukas/CarRental/sqlitecpp/include/SQLiteCpp/Transaction.h
+C:/Users/lukas/CarRental/Functions/JsonImport.h
 C:/Users/lukas/CarRental/Functions/h/addcar.h
 C:/Users/lukas/CarRental/Functions/h/addcustomer.h
 C:/Users/lukas/CarRental/Functions/h/assigncar.h

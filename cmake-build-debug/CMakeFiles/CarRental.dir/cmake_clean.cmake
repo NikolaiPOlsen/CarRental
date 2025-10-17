@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CarRental.dir/Functions/cpp/JsonExport.cpp.obj"
   "CMakeFiles/CarRental.dir/Functions/cpp/JsonExport.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/JsonImport.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/JsonImport.cpp.obj.d"
   "CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.obj"
   "CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.obj.d"
   "CMakeFiles/CarRental.dir/Functions/cpp/addcar.cpp.obj"

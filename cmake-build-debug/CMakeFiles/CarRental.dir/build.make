@@ -381,6 +381,26 @@ CMakeFiles\CarRental.dir\Functions\cpp\JsonExport.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CarRental.dir\Functions\cpp\JsonExport.cpp.s /c C:\Users\lukas\CarRental\Functions\cpp\JsonExport.cpp
 <<
 
+CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj: CMakeFiles\CarRental.dir\flags.make
+CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj: C:\Users\lukas\CarRental\Functions\cpp\JsonImport.cpp
+CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj: CMakeFiles\CarRental.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lukas\CarRental\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CarRental.dir/Functions/cpp/JsonImport.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj.d --working-dir=C:\Users\lukas\CarRental\cmake-build-debug --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~3\2022\BUILDT~1\VC\Tools\MSVC\1443~1.348\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj /FdCMakeFiles\CarRental.dir\ /FS -c C:\Users\lukas\CarRental\Functions\cpp\JsonImport.cpp
+<<
+
+CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CarRental.dir/Functions/cpp/JsonImport.cpp.i"
+	C:\PROGRA~2\MICROS~3\2022\BUILDT~1\VC\Tools\MSVC\1443~1.348\bin\Hostx64\x64\cl.exe > CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lukas\CarRental\Functions\cpp\JsonImport.cpp
+<<
+
+CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CarRental.dir/Functions/cpp/JsonImport.cpp.s"
+	C:\PROGRA~2\MICROS~3\2022\BUILDT~1\VC\Tools\MSVC\1443~1.348\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.s /c C:\Users\lukas\CarRental\Functions\cpp\JsonImport.cpp
+<<
+
 # Object files for target CarRental
 CarRental_OBJECTS = \
 "CMakeFiles\CarRental.dir\main.cpp.obj" \
@@ -398,7 +418,8 @@ CarRental_OBJECTS = \
 "CMakeFiles\CarRental.dir\Functions\cpp\search_carBrand.cpp.obj" \
 "CMakeFiles\CarRental.dir\Functions\cpp\search_regNr.cpp.obj" \
 "CMakeFiles\CarRental.dir\Functions\cpp\statistics.cpp.obj" \
-"CMakeFiles\CarRental.dir\Functions\cpp\JsonExport.cpp.obj"
+"CMakeFiles\CarRental.dir\Functions\cpp\JsonExport.cpp.obj" \
+"CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj"
 
 # External object files for target CarRental
 CarRental_EXTERNAL_OBJECTS =
@@ -419,11 +440,12 @@ CarRental.exe: CMakeFiles\CarRental.dir\Functions\cpp\search_carBrand.cpp.obj
 CarRental.exe: CMakeFiles\CarRental.dir\Functions\cpp\search_regNr.cpp.obj
 CarRental.exe: CMakeFiles\CarRental.dir\Functions\cpp\statistics.cpp.obj
 CarRental.exe: CMakeFiles\CarRental.dir\Functions\cpp\JsonExport.cpp.obj
+CarRental.exe: CMakeFiles\CarRental.dir\Functions\cpp\JsonImport.cpp.obj
 CarRental.exe: CMakeFiles\CarRental.dir\build.make
 CarRental.exe: sqlite3.lib
 CarRental.exe: sqlitecpp.lib
 CarRental.exe: CMakeFiles\CarRental.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\lukas\CarRental\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable CarRental.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\lukas\CarRental\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable CarRental.exe"
 	C:\Users\lukas\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E vs_link_exe --msvc-ver=1943 --intdir=CMakeFiles\CarRental.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\2022\BUILDT~1\VC\Tools\MSVC\1443~1.348\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\CarRental.dir\objects1.rsp @<<
  /out:CarRental.exe /implib:CarRental.lib /pdb:C:\Users\lukas\CarRental\cmake-build-debug\CarRental.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  sqlite3.lib sqlitecpp.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

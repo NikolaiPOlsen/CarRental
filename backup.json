@@ -31,6 +31,14 @@
       "model": "v40",
       "year": 2014,
       "status": 0
+    },
+    {
+      "carid": 5,
+      "regnr": "bm43291",
+      "brand": "Ferrari",
+      "model": "F40",
+      "year": 1987,
+      "status": 0
     }
   ],
   "customers": [
