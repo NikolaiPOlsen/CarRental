@@ -9,6 +9,7 @@
 #include "Functions/h/removecustomer.h"
 #include "Functions/h/unassigncar.h"
 #include "Functions/h/statistics.h"
+#include "Functions/h/JsonExport.h"
 
 int main() {
     SQLite::Database db("CarRental.sqlite", SQLite::OPEN_READWRITE);
@@ -79,6 +80,7 @@ int main() {
             }
             case 10: {
                 std::cout << "Export" << std::endl;
+                JsonExport(db);
                 break;
             }
             case 11: {

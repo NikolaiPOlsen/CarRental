@@ -36,8 +36,12 @@ add_executable(CarRental
         Functions/cpp/search_carBrand.cpp
         Functions/cpp/search_regNr.cpp
         Functions/cpp/statistics.cpp
-        Functions/cpp/statistics.h
+        Functions/cpp/statistics.cpp
+        Functions/cpp/JsonExport.cpp
+        Functions/h/JsonExport.h
 )
 
+find_package(RapidJSON CONFIG REQUIRED)
+
 target_include_directories(CarRental PRIVATE sqlitecpp/include)
-target_link_libraries(CarRental sqlite3 sqlitecpp)
+target_link_libraries(CarRental sqlite3 sqlitecpp rapidjson)

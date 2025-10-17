@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/CarRental.dir/Functions/cpp/JsonExport.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/JsonExport.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/Search_customerID.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/addcar.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/addcar.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/addcustomer.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/addcustomer.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/assigncar.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/assigncar.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/editcar.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/editcar.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/editcustomer.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/editcustomer.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/removecar.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/removecar.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/removecustomer.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/removecustomer.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_carBrand.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_carid.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_name.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/search_regNr.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/statistics.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/statistics.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.obj"
+  "CMakeFiles/CarRental.dir/Functions/cpp/unassigncar.cpp.obj.d"
+  "CMakeFiles/CarRental.dir/main.cpp.obj"
+  "CMakeFiles/CarRental.dir/main.cpp.obj.d"
+  "CarRental.exe"
+  "CarRental.exe.manifest"
+  "CarRental.lib"
+  "CarRental.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/CarRental.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

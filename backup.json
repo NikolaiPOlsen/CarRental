@@ -1,0 +1,68 @@
+{
+  "cars": [
+    {
+      "carid": 1,
+      "regnr": "RK35977",
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": 2008,
+      "status": 1
+    },
+    {
+      "carid": 2,
+      "regnr": "MX34955",
+      "brand": "Nissan",
+      "model": "GTR",
+      "year": 2024,
+      "status": 1
+    },
+    {
+      "carid": 3,
+      "regnr": "kj19407",
+      "brand": "volvo",
+      "model": "v40",
+      "year": 2014,
+      "status": 0
+    },
+    {
+      "carid": 4,
+      "regnr": "kj19407",
+      "brand": "Volvo",
+      "model": "v40",
+      "year": 2014,
+      "status": 0
+    }
+  ],
+  "customers": [
+    {
+      "customerid": 3,
+      "GivenName": "Nikolai",
+      "FamilyName": "Pedersen",
+      "Email": "N@uia.no",
+      "Phonenumber": "92042755"
+    },
+    {
+      "customerid": 4,
+      "GivenName": "Nikolai",
+      "FamilyName": "Robertsen",
+      "Email": "NR@uia.no",
+      "Phonenumber": "456892346"
+    }
+  ],
+  "rentals": [
+    {
+      "rentalid": 18,
+      "car_id": 2,
+      "customer_id": 3,
+      "start_date": "01.01.2025",
+      "end_date": "02.02.2025"
+    },
+    {
+      "rentalid": 20,
+      "car_id": 1,
+      "customer_id": 4,
+      "start_date": "22.09.2025",
+      "end_date": "30.09.2025"
+    }
+  ]
+}
