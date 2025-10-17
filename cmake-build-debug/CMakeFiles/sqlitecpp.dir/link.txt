@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsqlitecpp.a CMakeFiles/sqlitecpp.dir/SQLiteCpp/src/Backup.cpp.o CMakeFiles/sqlitecpp.dir/SQLiteCpp/src/Column.cpp.o CMakeFiles/sqlitecpp.dir/SQLiteCpp/src/Database.cpp.o CMakeFiles/sqlitecpp.dir/SQLiteCpp/src/Exception.cpp.o CMakeFiles/sqlitecpp.dir/SQLiteCpp/src/Savepoint.cpp.o CMakeFiles/sqlitecpp.dir/SQLiteCpp/src/Statement.cpp.o CMakeFiles/sqlitecpp.dir/SQLiteCpp/src/Transaction.cpp.o
-/usr/bin/ranlib libsqlitecpp.a

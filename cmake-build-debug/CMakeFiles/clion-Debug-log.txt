@@ -1,4 +1,13 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /Users/nikolaipedersen/Desktop/CarRental -B /Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/nikolaipedersen/Desktop/CarRental/cmake-build-debug
+C:\Users\emilm\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\emilm\ikt103_e\CarRental -B C:\Users\emilm\ikt103_e\CarRental\cmake-build-debug
+-- Configuring done (0.3s)
+CMake Error at CMakeLists.txt:23 (add_executable):
+  Cannot find source file:
+
+    Functions/cpp/statistics.h
+
+
+CMake Error at CMakeLists.txt:23 (add_executable):
+  No SOURCES given to target: CarRental
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
