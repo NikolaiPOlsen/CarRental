@@ -1,0 +1,90 @@
+{
+  "cars": [
+    {
+      "carid": 1,
+      "regnr": "LX23067",
+      "brand": "Lexus",
+      "model": "Pretend",
+      "year": 2025,
+      "status": 1
+    },
+    {
+      "carid": 2,
+      "regnr": "MX34955",
+      "brand": "Nissan",
+      "model": "GTR",
+      "year": 2024,
+      "status": 0
+    },
+    {
+      "carid": 5,
+      "regnr": "bm43291",
+      "brand": "Ferrari",
+      "model": "F40",
+      "year": 1987,
+      "status": 0
+    },
+    {
+      "carid": 8,
+      "regnr": "LX459487",
+      "brand": "Lexus",
+      "model": "Pretend",
+      "year": 2020,
+      "status": 1
+    },
+    {
+      "carid": 9,
+      "regnr": "LX98745",
+      "brand": "Lexus",
+      "model": "Pretend",
+      "year": 2022,
+      "status": 1
+    }
+  ],
+  "customers": [
+    {
+      "customerid": 3,
+      "GivenName": "Nikolai",
+      "FamilyName": "Pedersen",
+      "Email": "N@uia.no",
+      "Phonenumber": "92042755"
+    },
+    {
+      "customerid": 4,
+      "GivenName": "Nikolai",
+      "FamilyName": "Robertsen",
+      "Email": "NR@uia.no",
+      "Phonenumber": "456892346"
+    },
+    {
+      "customerid": 6,
+      "GivenName": "Bert",
+      "FamilyName": "Petterson",
+      "Email": "BP@uia.no",
+      "Phonenumber": "87654321"
+    }
+  ],
+  "rentals": [
+    {
+      "rentalid": 33,
+      "car_id": 1,
+      "customer_id": 3,
+      "start_date": "2025-10-18",
+      "end_date": "2025-11-01"
+    },
+    {
+      "rentalid": 34,
+      "car_id": 9,
+      "customer_id": 6,
+      "start_date": "2025-11-15",
+      "end_date": "2025-11-20"
+    },
+    {
+      "rentalid": 35,
+      "car_id": 8,
+      "customer_id": 4,
+      "start_date": "2025-10-20",
+      "end_date": "2025-11-01"
+    }
+  ]
+}

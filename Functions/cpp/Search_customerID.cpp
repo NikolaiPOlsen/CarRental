@@ -22,10 +22,10 @@ void searchCustomerID(SQLite::Database& db, const int car_id) {
             std::cout << "This customer is already renting a vehicle!\n";
         }
         else {
-            std::cout << "Rental start: ";
+            std::cout << "Rental start (YYYY-MM-DD): ";
             std::cin >> start_date;
 
-            std::cout << "Rental end: ";
+            std::cout << "Rental end (YYYY-MM-DD): ";
             std::cin >> end_date;
 
             if (end_date < start_date) {
