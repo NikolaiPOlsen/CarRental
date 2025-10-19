@@ -1,4 +1,0 @@
-C:\Users\lukas\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe" -DCMAKE_TOOLCHAIN_FILE=C:\Users\lukas\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake -G "NMake Makefiles" -S C:\Users\lukas\CarRental -B C:\Users\lukas\CarRental\cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.1s)
--- Build files have been written to: C:/Users/lukas/CarRental/cmake-build-debug

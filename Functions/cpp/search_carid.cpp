@@ -9,6 +9,11 @@ void searchCarID(SQLite::Database& db) {
     std::cout << "Enter the car id: ";
     std::cin >> car_id;
 
+    SQLite::Statement list(db, "SELECT regnr, brand, model, year FROM cars WHERE carid=?");
+    list.bind(1, car_id);
+    list.executeStep();
+    std::cout << "Car selected -> " << "Registration: " << list.getColumn(0).getString() << ", Brand: " << list.getColumn(1).getString() << ", Model: " << list.getColumn(2).getString() << ", Year: " << list.getColumn(3).getString() <<  std::endl;
+
     SQLite::Statement s(db, "SELECT status FROM cars WHERE carid=?");
     s.bind(1, car_id);
     if (!s.executeStep()) {

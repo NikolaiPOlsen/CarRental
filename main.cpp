@@ -1,7 +1,7 @@
 #include <iostream>
 #include <SQLiteCpp/SQLiteCpp.h>
 
-#include "Functions/JsonImport.h"
+#include "Functions/h/JsonImport.h"
 #include "Functions/h/addcar.h"
 #include "Functions/h/addcustomer.h"
 #include "Functions/h/assigncar.h"
@@ -96,6 +96,7 @@ int main() {
             }
             default: {
                 std::cout << "Invalid choice, program is now exiting!" << std::endl;
+                exit(0);
             }
         }
     }
