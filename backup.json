@@ -14,7 +14,7 @@
       "brand": "Nissan",
       "model": "GTR",
       "year": 2024,
-      "status": 0
+      "status": 1
     },
     {
       "carid": 5,
@@ -38,7 +38,15 @@
       "brand": "Lexus",
       "model": "Pretend",
       "year": 2022,
-      "status": 1
+      "status": 0
+    },
+    {
+      "carid": 12,
+      "regnr": "LX35977",
+      "brand": "Lexus",
+      "model": "Pretend",
+      "year": 1994,
+      "status": 0
     }
   ],
   "customers": [
@@ -62,29 +70,36 @@
       "FamilyName": "Petterson",
       "Email": "BP@uia.no",
       "Phonenumber": "87654321"
+    },
+    {
+      "customerid": 10,
+      "GivenName": "Svein",
+      "FamilyName": "Laudal",
+      "Email": "SL@uia.no",
+      "Phonenumber": "76859378"
     }
   ],
   "rentals": [
     {
-      "rentalid": 33,
-      "car_id": 1,
-      "customer_id": 3,
-      "start_date": "2025-10-18",
-      "end_date": "2025-11-01"
-    },
-    {
-      "rentalid": 34,
-      "car_id": 9,
+      "rentalid": 37,
+      "car_id": 2,
       "customer_id": 6,
-      "start_date": "2025-11-15",
-      "end_date": "2025-11-20"
-    },
-    {
-      "rentalid": 35,
-      "car_id": 8,
-      "customer_id": 4,
       "start_date": "2025-10-20",
       "end_date": "2025-11-01"
+    },
+    {
+      "rentalid": 39,
+      "car_id": 1,
+      "customer_id": 3,
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-24"
+    },
+    {
+      "rentalid": 40,
+      "car_id": 8,
+      "customer_id": 4,
+      "start_date": "2024-01-01",
+      "end_date": "2024-01-02"
     }
   ]
 }

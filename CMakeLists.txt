@@ -22,25 +22,16 @@ target_link_libraries(sqlitecpp sqlite3)
 # Hovedprogram
 add_executable(CarRental
         main.cpp
-        Functions/cpp/addcar.cpp
-        Functions/cpp/editcar.cpp
-        Functions/cpp/removecar.cpp
-        Functions/cpp/addcustomer.cpp
-        Functions/cpp/editcustomer.cpp
-        Functions/cpp/removecustomer.cpp
-        Functions/cpp/assigncar.cpp
-        Functions/cpp/unassigncar.cpp
-        Functions/cpp/search_carid.cpp
-        Functions/cpp/Search_customerID.cpp
-        Functions/cpp/search_name.cpp
-        Functions/cpp/search_carBrand.cpp
-        Functions/cpp/search_regNr.cpp
-        Functions/cpp/statistics.cpp
-        Functions/cpp/statistics.cpp
-        Functions/cpp/JsonExport.cpp
-        Functions/h/JsonExport.h
-        Functions/cpp/JsonImport.cpp
-        Functions/h/JsonImport.h
+        Classes/Car/CarManager.cpp
+        Classes/Car/CarManager.h
+        Classes/Customer/CustomerManager.cpp
+        Classes/Customer/CustomerManager.h
+        Classes/Search/SearchEngineCar.cpp
+        Classes/Search/SearchEngineCar.h
+        Classes/Search/SearchEngineCustomer.cpp
+        Classes/Search/SearchEngineCustomer.h
+        Classes/Data/DataManager.cpp
+        Classes/Data/DataManager.h
 )
 
 find_package(RapidJSON CONFIG REQUIRED)

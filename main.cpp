@@ -1,17 +1,11 @@
 #include <iostream>
 #include <SQLiteCpp/SQLiteCpp.h>
 
-#include "Functions/h/JsonImport.h"
-#include "Functions/h/addcar.h"
-#include "Functions/h/addcustomer.h"
-#include "Functions/h/assigncar.h"
-#include "Functions/h/editcar.h"
-#include "Functions/h/editcustomer.h"
-#include "Functions/h/removecar.h"
-#include "Functions/h/removecustomer.h"
-#include "Functions/h/unassigncar.h"
-#include "Functions/h/statistics.h"
-#include "Functions/h/JsonExport.h"
+#include "Classes/Car/CarManager.h"
+#include "Classes/Customer/CustomerManager.h"
+#include "Classes/Data/DataManager.h"
+#include "Classes/Search/SearchEngineCar.h"
+#include "Classes/Search/SearchEngineCustomer.h"
 
 int main() {
     SQLite::Database db("CarRental.sqlite", SQLite::OPEN_READWRITE);
@@ -34,60 +28,66 @@ int main() {
 
         std::cin >> choice;
 
+        CarManager carm;
+        CustomerManager custm;
+        SearchEngineCar secar;
+        SearchEngineCustomer secust;
+        DataManager dbm;
+
         switch (choice) {
             case 1: {
                 std::cout << "Add car" << std::endl;
-                addCar(db);
+                carm.addCar(db);
                 break;
             }
             case 2: {
                 std::cout << "Edit car" << std::endl;
-                editCar(db);
+                carm.editCar(db);
                 break;
             }
             case 3: {
                 std::cout << "Remove car" << std::endl;
-                removeCar(db);
+                carm.removeCar(db);
                 break;
             }
             case 4: {
                 std::cout << "Add customer" << std::endl;
-                addCustomer(db);
+                custm.addCustomer(db);
                 break;
             }
             case 5: {
                 std::cout << "Edit customer" << std::endl;
-                editCustomer(db);
+                custm.editCustomer(db);
                 break;
             }
             case 6: {
                 std::cout << "Remove customer" << std::endl;
-                removeCustomer(db);
+                custm.removeCustomer(db);
                 break;
             }
             case 7: {
                 std::cout << "Assign car" << std::endl;
-                assignCar(db);
+                carm.assignCar(db);
                 break;
             }
             case 8: {
                 std::cout << "Unassign car" << std::endl;
-                unassignCar(db);
+                carm.unassignCar(db);
                 break;
             }
             case 9: {
                 std::cout << "Statistics" << std::endl;
-                statistics(db);
+                dbm.statistics(db);
                 break;
             }
             case 10: {
                 std::cout << "Export" << std::endl;
-                JsonExport(db);
+                dbm.JsonExport(db);
                 break;
             }
             case 11: {
                 std::cout << "Import" << std::endl;
-                JsonImport(db, "backup.json");
+                dbm.JsonImport(db, "backup.json");
                 break;
             }
             case 12: {
