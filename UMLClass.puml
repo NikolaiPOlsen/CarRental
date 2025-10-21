@@ -1,0 +1,28 @@
+@startuml
+class cars {
+    - carid: int <<PK, AUTO_INCREMENT>>
+    - regnr: string
+    - brand: string
+    - model: string
+    - year: int
+    - status: int
+}
+
+class customers {
+    - customerid: int <<PK, AUTO_INCREMENT>>
+    - GivenName: string
+    - FamilyName: string
+    - Email: string
+    - Phonenumber: string
+}
+class rentals {
+    - rentalid: int <<PK, AUTO_INCREMENT>>
+    - customerid: int <<FK>>
+    - carid: int <<FK>>
+    - start_date: string
+    - end_date: string
+}
+
+cars "1" -- "many" rentals
+customers "1" -- "many" rentals
+@enduml
