@@ -14,7 +14,7 @@ CarRental er et konsolbasert system for administrasjon av bilutleie. Programmet 
 - **Pakkehåndtering:** vcpkg
 - **Bibliotek:** SQLiteCpp
 
-## 📁 Prosjektstruktur
+## Prosjektstruktur
 ```
 CarRental/
 ├── Classes/          # Klassefiler (Car, Customer, Rental, osv.)
