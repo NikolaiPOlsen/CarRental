@@ -6,7 +6,7 @@ Et bilutleieprogram skrevet i C++ med SQLite-database, utviklet som eksamen i IK
 
 CarRental er et konsolbasert system for administrasjon av bilutleie. Programmet håndterer kunder, biler og leieforhold ved hjelp av en lokal SQLite-database.
 
-## 🛠️ Teknologier
+## Teknologier
 
 - **Språk:** C / C++
 - **Database:** SQLite3
