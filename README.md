@@ -35,7 +35,7 @@ CarRental/
 
 - CMake ≥ 3.15
 - En C++17-kompatibel kompilator (GCC, Clang, MSVC)
-- [vcpkg](https://github.com/microsoft/vcpkg) (valgfritt, for avhengighetsstyring)
+- [vcpkg](https://github.com/microsoft/vcpkg)
 
 ### Bygg prosjektet
 ```bash
